@@ -1,0 +1,99 @@
+{ "frames": [
+   {
+    "filename": "adventurer #idle 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 175
+   },
+   {
+    "filename": "adventurer #idle 1.aseprite",
+    "frame": { "x": 50, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 175
+   },
+   {
+    "filename": "adventurer #idle 2.aseprite",
+    "frame": { "x": 100, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 175
+   },
+   {
+    "filename": "adventurer #idle 3.aseprite",
+    "frame": { "x": 150, "y": 0, "w": 50, "h": 37 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 50, "h": 37 },
+    "sourceSize": { "w": 50, "h": 37 },
+    "duration": 175
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.14-x64",
+  "image": "adventurer.png",
+  "format": "I8",
+  "size": { "w": 200, "h": 37 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle", "from": 0, "to": 3, "direction": "forward" },
+   { "name": "crouch", "from": 4, "to": 7, "direction": "forward" },
+   { "name": "run", "from": 8, "to": 13, "direction": "forward" },
+   { "name": "jump", "from": 14, "to": 17, "direction": "forward" },
+   { "name": "smrslt", "from": 18, "to": 21, "direction": "forward" },
+   { "name": "fall", "from": 22, "to": 23, "direction": "forward" },
+   { "name": "slide", "from": 24, "to": 25, "direction": "forward" },
+   { "name": "stand", "from": 26, "to": 28, "direction": "forward" },
+   { "name": "crnr-grb", "from": 29, "to": 32, "direction": "forward" },
+   { "name": "crnr-clmb", "from": 33, "to": 37, "direction": "forward" },
+   { "name": "idle-2", "from": 38, "to": 41, "direction": "forward" },
+   { "name": "attack1", "from": 42, "to": 46, "direction": "forward" },
+   { "name": "attack2", "from": 47, "to": 52, "direction": "forward" },
+   { "name": "attack3", "from": 53, "to": 58, "direction": "forward" },
+   { "name": "hurt", "from": 59, "to": 61, "direction": "forward" },
+   { "name": "die", "from": 62, "to": 68, "direction": "forward" },
+   { "name": "swrd-drw", "from": 69, "to": 72, "direction": "forward" },
+   { "name": "swrd-shte", "from": 73, "to": 76, "direction": "forward" },
+   { "name": "crnr-jmp", "from": 77, "to": 78, "direction": "forward" },
+   { "name": "wall-slide", "from": 79, "to": 80, "direction": "forward" },
+   { "name": "ladder-climb", "from": 81, "to": 84, "direction": "forward" },
+   { "name": "cast", "from": 85, "to": 88, "direction": "forward" },
+   { "name": "cast-loop", "from": 89, "to": 92, "direction": "forward" },
+   { "name": "items", "from": 93, "to": 95, "direction": "forward" },
+   { "name": "air-attack1", "from": 96, "to": 99, "direction": "forward" },
+   { "name": "air-attack2", "from": 100, "to": 102, "direction": "forward" },
+   { "name": "air-attack3-rdy", "from": 103, "to": 103, "direction": "forward" },
+   { "name": "air-attack3-loop", "from": 104, "to": 105, "direction": "forward" },
+   { "name": "air-attack-3-end", "from": 106, "to": 108, "direction": "forward" },
+   { "name": "punch", "from": 109, "to": 121, "direction": "forward" },
+   { "name": "run-punch", "from": 122, "to": 128, "direction": "forward" },
+   { "name": "kick", "from": 129, "to": 136, "direction": "forward" },
+   { "name": "drop-kick", "from": 137, "to": 140, "direction": "forward" },
+   { "name": "knock-dwn", "from": 141, "to": 147, "direction": "forward" },
+   { "name": "get-up", "from": 148, "to": 154, "direction": "forward" },
+   { "name": "walk", "from": 155, "to": 160, "direction": "forward" },
+   { "name": "crouch-walk", "from": 161, "to": 166, "direction": "forward" },
+   { "name": "run2", "from": 167, "to": 172, "direction": "forward" },
+   { "name": "wall-run", "from": 173, "to": 178, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "back-arm", "group": "Hero", "opacity": 255, "blendMode": "normal" },
+   { "name": "legs", "group": "Hero", "opacity": 255, "blendMode": "normal" },
+   { "name": "body", "group": "Hero", "opacity": 255, "blendMode": "normal" },
+   { "name": "scarf", "group": "Hero", "opacity": 255, "blendMode": "normal" },
+   { "name": "head", "group": "Hero", "opacity": 255, "blendMode": "normal" },
+   { "name": "front-arm", "group": "Hero", "opacity": 255, "blendMode": "normal" },
+   { "name": "Hero" }
+  ],
+  "slices": [
+  ]
+ }
+}
