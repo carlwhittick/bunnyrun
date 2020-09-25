@@ -1,19 +1,6 @@
-# phaser-electron-typescript-parcel [![Build Status](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel.svg?branch=master)](https://travis-ci.org/distantcam/phaser-electron-typescript-parcel)
+# Bunnyrun
 
-A minimal template with the following things.
-
-- [Phaser](https://phaser.io/) 🕹️ Desktop and Mobile HTML5 game framework
-- [Electron](https://electronjs.org/) ⚛️ Build cross platform desktop apps with JavaScript, HTML, and CSS
-- [Parcel](https://github.com/parcel-bundler/parcel) 📦 Blazing fast, zero configuration web application bundler
-- [TypeScript](https://www.typescriptlang.org/) ⌨️ is a typed superset of JavaScript that compiles to plain JavaScript.
-
-## Installation
-
-* `git@github.com:distantcam/phaser-electron-typescript-parcel.git`
-* `cd phaser-electron-typescript-parcel`
-* `yarn`
-
-## Usage
+A small prototype platformer game made for the 2020 VimJam gamejam in a little under a week.
 
 ### Cleaning
 Run these commands to clean up the directory
@@ -51,4 +38,10 @@ Run this command to bundle code in production mode
 ``` bash
 # Create executables
 $ yarn dist
+```
+
+Run this command to build the code for the web
+``` bash
+# Build
+$ yarn web-build
 ```
